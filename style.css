@@ -1,0 +1,43 @@
+*{
+    background-color: palevioletred;
+    margin: 0;
+    padding: 0;
+}
+
+.gallery{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.gallery__s1__title{
+
+padding: 20px;
+text-align: center;
+width: 40%;
+border-bottom: 5px solid black;
+}
+
+
+
+.image{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10px;
+    
+
+}
+
+.image-card{
+    width:300px;
+    border: black;
+}
+
+.image-card img{
+    width:80%;
+    height: 90%;
+    border: black solid ;
+}
